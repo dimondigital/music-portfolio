@@ -1,0 +1,21 @@
+@import "variables";
+
+.main {
+  padding: 0 $padding;
+}
+
+span {
+  display: flex;
+  width: 100%;
+}
+
+p {
+  background-image:$gradient-sunny-reverse;
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}

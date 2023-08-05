@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@use 'scss-reset/reset';
+@import "style/variables";
+@import "assets/webfontkit-20230805-153002/font-argentum";
+
+body {
+  font-family: "argentum_sansblack", serif;
+  text-transform: uppercase;
+  color: $color-green-light;
+  letter-spacing: -0.05em;
+  font-size: large;
+  line-height: 1em;
+}
+
+button {
+  transition: opacity 0.33s cubic-bezier(0.34, 1.56, 0.64, 1) 0s;
+  background-color: $color-green-dark;
+  color: $color-green-light;
+
+  &:hover {
+    filter: brightness(1.1);
+  }
+}

@@ -1,0 +1,10 @@
+<div class="filter filter-yellow"></div>
+<div class="filter filter-sunny"></div>
+<div class="container" [@hideGroup]="isHideGroup">
+  <app-avatar class="removable" @show1 [@hide1]="isHideGroup" style="height: 50vh; overflow: hidden;" [imgSrc]="imgSrc"></app-avatar>
+  <app-live-text class="removable" @show2 [@hide2]="isHideGroup" style="height: 40vh;" (isTypingFinished)="showButton()"
+                 [totalText]="introText"></app-live-text>
+  <ng-container *ngIf="isShowButton">
+    <button class="removable" @show3 @hide1 style="height: 10vh; z-index: 100;" (click)="navigationToShowcasePage($event)">HERE YOU'LL HEAR</button>
+  </ng-container>
+</div>

@@ -1,0 +1,36 @@
+@import 'variables';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background: $color-vite;
+  height: 100vh;
+  width: 100vw;
+  z-index: 7;
+
+}
+
+.filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 88;
+}
+
+
+.filter-yellow {
+
+  background-color: #fbf62a;
+  opacity: 0.32;
+  mix-blend-mode: hard-light;
+}
+
+.filter-sunny {
+  background: $gradient-sunny;
+  opacity: 0.58;
+  mix-blend-mode: color-dodge;
+  z-index: 89;
+}

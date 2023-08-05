@@ -1,0 +1,13 @@
+
+$color-vite: #ffffd2;
+$color-green-dark: #106757;
+$color-green-light: #109f4c;
+$color-green-vital: #94c352;
+$color-green-toxic: #1cb24d;
+$color-blood: #90182a;
+$color-black: black;
+$gradient-greeny: linear-gradient(to top, $color-green-dark, $color-green-light);
+$gradient-sunny: linear-gradient(to top, $color-green-toxic, $color-blood);
+$gradient-sunny-reverse: linear-gradient(to bottom, $color-green-toxic, $color-blood);
+
+$padding: 20px;

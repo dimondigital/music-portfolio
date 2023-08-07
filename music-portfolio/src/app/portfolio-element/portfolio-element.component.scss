@@ -1,0 +1,43 @@
+@import "variables";
+
+.container {
+
+  background: $color-vite;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+  .title{
+    color: $color-green-vital;
+    padding: $padding;
+    text-align: center;
+
+    h2 {
+      font-size: x-large;
+      line-height: normal;
+    }
+  }
+
+  .description {
+    padding: $padding;
+    color: black;
+
+    span {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .links {
+    padding: $padding;
+
+    a {
+      line-height: 1.2em;
+      display: block;
+      width: 100%;
+      color: $color-green-vital !important;
+    }
+  }
+
+  .tags {
+    padding: $padding;
+  }
+}

@@ -1,5 +1,17 @@
 import {animate, query, state, style, transition, trigger} from "@angular/animations";
 
+export function showAndHide() {
+  return trigger('showAndHide', [
+    state('*', style({
+      opacity: 1
+    })),
+    state('void', style({
+      opacity: 0
+    })),
+    transition('* => void', animate('333ms cubic-bezier(0.080, 0.720, 0.410, 0.860)')),
+  ]);
+}
+
 export function show1() {
   return trigger('show1', [
     state('*', style({

@@ -19,3 +19,10 @@ p {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
+
+
+@media only screen and (min-width: 500px) {
+  .main {
+    padding: 20px 0;
+  }
+}

@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="title">
+    <h2 *ngFor="let titlePart of data.title">{{ titlePart }}</h2>
+  </div>
+  <div [innerHTML]="getEmbeddedVideoLink(data.videoId) | youtube"></div>
+  <div class="description">
+    <span *ngFor="let d of data.description">{{ d }}</span>
+  </div>
+  <div class="links">
+    <a *ngFor="let link of data.links" [href]="link.link" target="_blank">{{ link.title }}</a>
+  </div>
+  <div class="tags">
+    <app-tags [tags]="data.genres"></app-tags>
+  </div>
+</div>

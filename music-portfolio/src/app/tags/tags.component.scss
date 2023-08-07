@@ -1,0 +1,13 @@
+@import "variables";
+
+a {
+  margin-right: 15px;
+  text-wrap: nowrap;
+  padding: 8px 13px;
+  line-height: 1em;
+  display: inline-block;
+  -webkit-text-decoration: auto;
+  text-decoration: auto;
+  color: $color-green-vital;
+  background-color: $color-green-dark;
+}

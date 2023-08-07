@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { PageShowcaseRoutingModule } from './page-showcase-routing.module';
 import { PageShowcaseComponent } from './page-showcase.component';
 import {GenreSelectModule} from "../genre-select/genre-select.module";
+import {PortfolioElementModule} from "../portfolio-element/portfolio-element.module";
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import {GenreSelectModule} from "../genre-select/genre-select.module";
     imports: [
         CommonModule,
         PageShowcaseRoutingModule,
-        GenreSelectModule
+        GenreSelectModule,
+        PortfolioElementModule
     ]
 })
 export class PageShowcaseModule { }

@@ -1,5 +1,17 @@
 @import 'variables';
 
+.bg {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: $gradient-greeny !important;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -7,4 +19,13 @@
   background: $gradient-greeny;
   height: 100vh;
   width: 100vw;
+}
+
+@media only screen and (min-width: 500px) {
+  .container {
+    align-self: center;
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+  }
 }

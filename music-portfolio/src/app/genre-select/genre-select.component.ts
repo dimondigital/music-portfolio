@@ -15,6 +15,7 @@ export class GenreSelectComponent implements OnInit{
   selected: string = '';
   public placeholder: string = 'Choose Category';
   isSelecting: boolean = true;
+  @Output() isSelectingOutput: EventEmitter<boolean> = new EventEmitter<boolean>();
 
   ngOnInit() {
     if(this.genreInput) {
@@ -29,10 +30,12 @@ export class GenreSelectComponent implements OnInit{
 
   public onSelect(): void {
     this.isSelecting = true;
+    this.isSelectingOutput.emit(this.isSelecting);
   }
 
   public onSelectComplete(genreName: string): void {
     this.isSelecting = false;
+    this.isSelectingOutput.emit(this.isSelecting);
     this.genreOutput.emit(genreName);
     this.selected = genreName;
   }

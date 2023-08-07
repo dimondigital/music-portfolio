@@ -1,21 +1,46 @@
-import {Component, OnInit} from '@angular/core';
-import {ActivatedRoute, NavigationEnd, Route, Router} from "@angular/router";
-import {filter} from "rxjs";
+import {Component, OnDestroy, OnInit} from '@angular/core';
+import {ActivatedRoute, Router} from "@angular/router";
+import {PortfolioElement} from "../portfolio-element/portfolio-element";
+import {PortfolioService} from "../portfolio.service";
+import {Subscription} from "rxjs";
+import {hide1, show1, showAndHide} from "../animations/custom-animations";
 
 @Component({
   selector: 'app-page-showcase',
   templateUrl: './page-showcase.component.html',
-  styleUrls: ['./page-showcase.component.scss']
+  styleUrls: ['./page-showcase.component.scss'],
+  animations: [show1(), hide1(), showAndHide()]
 })
-export class PageShowcaseComponent implements OnInit {
+export class PageShowcaseComponent implements OnInit, OnDestroy {
 
-  constructor(private router: Router, private route: ActivatedRoute) {
+  portfolioElements: PortfolioElement[] = [];
+  getPortfolioItemsSub!: Subscription;
+  isSelectingGenre: boolean = false;
+
+  constructor(
+    private router: Router,
+    private route: ActivatedRoute,
+    private portfolioService: PortfolioService
+  ) {
   }
 
   ngOnInit() {
     this.route.params
       .subscribe((value) => {
         this.selectedGenre = this.route.snapshot.queryParams['genre'];
+        this.getPortfolioElements();
+      });
+  }
+
+  private getPortfolioElements(): void {
+
+    this.getPortfolioItemsSub = this.portfolioService.getPortfolioElements()
+      .subscribe((data: {}): void => {
+        this.portfolioElements = [];
+        // @ts-ignore
+        this.portfolioElements = data["portfolio-items"].filter((element: PortfolioElement) => {
+          return element.genres.includes(this.selectedGenre);
+        });
       })
   }
 
@@ -34,6 +59,7 @@ export class PageShowcaseComponent implements OnInit {
 
   onSelectGenre(genre: string): void {
     this.selectedGenre = genre;
+    this.getPortfolioElements();
     this.router.navigate([], {
       relativeTo: this.route,
       queryParams: {
@@ -44,6 +70,10 @@ export class PageShowcaseComponent implements OnInit {
       skipLocationChange: false
       // do not trigger navigation
     });
+  }
+
+  ngOnDestroy(): void {
+    this.getPortfolioItemsSub.unsubscribe();
   }
 
 }

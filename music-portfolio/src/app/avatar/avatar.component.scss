@@ -8,3 +8,11 @@
 img {
 
 }
+
+@media only screen and (min-width: 500px) {
+  .avatar-container {
+    align-self: center;
+    display: flex;
+    max-width: 500px;
+  }
+}

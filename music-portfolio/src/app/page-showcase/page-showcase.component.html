@@ -1,7 +1,14 @@
+<div class="bg"></div>
 <div class="container">
   <app-genre-select
     [genres]="availableGenres"
     [genreInput]="selectedGenre"
+    (isSelectingOutput)="isSelectingGenre = $event"
     (genreOutput)="onSelectGenre($event)"
   ></app-genre-select>
+  <div style="">
+    <ng-container *ngIf="selectedGenre && !isSelectingGenre">
+      <app-portfolio-element @show1 *ngFor="let el of portfolioElements" [data]="el"></app-portfolio-element>
+    </ng-container>
+  </div>
 </div>

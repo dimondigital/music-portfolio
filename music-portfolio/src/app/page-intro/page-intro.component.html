@@ -1,10 +1,18 @@
-<div class="filter filter-yellow"></div>
-<div class="filter filter-sunny"></div>
-<div class="container" [@hideGroup]="isHideGroup">
-  <app-avatar class="removable" @show1 [@hide1]="isHideGroup" style="height: 50vh; overflow: hidden;" [imgSrc]="imgSrc"></app-avatar>
-  <app-live-text class="removable" @show2 [@hide2]="isHideGroup" style="height: 40vh;" (isTypingFinished)="showButton()"
+<div class="filter filter-yellow" [@backgroundRemove]="!isHideGroup ? '*' : 'void'"></div>
+<div class="filter filter-sunny" [@backgroundRemove]="!isHideGroup ? '*' : 'void'"></div>
+<div class="container">
+  <div class="new-bg" [@backgroundAdd]="!isHideGroup ? '*' : 'newBgColor'"></div>
+  <div class="bg" [@backgroundRemove]="!isHideGroup ? '*' : 'void'"></div>
+  <app-avatar @show1 [@hide3]="!isHideGroup ? '*' : 'void'"
+              style="height: 50vh; overflow: hidden;" [imgSrc]="imgSrc"></app-avatar>
+  <app-live-text @show2 [@hide2]="!isHideGroup ? '*' : 'void'"
+                 style="height: 40vh; z-index: inherit;" (isTypingFinished)="showButton()"
                  [totalText]="introText"></app-live-text>
+
   <ng-container *ngIf="isShowButton">
-    <button class="removable" @show3 @hide1 style="height: 10vh; z-index: 100;" (click)="navigationToShowcasePage($event)">HERE YOU'LL HEAR</button>
+    <button @show3 [@hide1]="!isHideGroup ? '*' : 'void'" style="height: 10vh; z-index: 100;"
+            (click)="navigationToShowcasePage($event)">HERE YOU'LL HEAR
+    </button>
   </ng-container>
+
 </div>

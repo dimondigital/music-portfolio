@@ -41,10 +41,10 @@ export function hide1() {
     state('*', style({
       opacity: 1
     })),
-    state('hide', style({
+    state('void', style({
       opacity: 0
     })),
-    transition('* => hide', animate('1000ms 333ms cubic-bezier(0.080, 0.720, 0.410, 0.860)')),
+    transition('* => void', animate('1000ms 333ms cubic-bezier(0.080, 0.720, 0.410, 0.860)')),
   ]);
 }
 
@@ -53,11 +53,49 @@ export function hide2() {
     state('*', style({
       opacity: 1
     })),
-    state('hide', style({
-      color: "#ff00ff",
+    state('void', style({
       opacity: 0
     })),
-    transition('* => hide', animate('1000ms 666ms cubic-bezier(0.080, 0.720, 0.410, 0.860)')),
+    transition('* => void', animate('1000ms 666ms cubic-bezier(0.080, 0.720, 0.410, 0.860)')),
+  ]);
+}
+
+export function hide3() {
+  return trigger('hide3', [
+    state('*', style({
+      opacity: 1
+    })),
+    state('void', style({
+      opacity: 0
+    })),
+    transition('* => void', animate('1000ms 999ms cubic-bezier(0.080, 0.720, 0.410, 0.860)')),
+  ]);
+}
+
+export function backgroundRemove() {
+  return trigger('backgroundRemove', [
+    state('*', style({
+      opacity: '*'
+    })),
+    state('void', style({
+      opacity: 0
+    })),
+    transition('* => void', animate('2000ms 1998ms cubic-bezier(0.080, 0.720, 0.410, 0.860)')),
+  ]);
+}
+
+
+export function backgroundAdd() {
+  return trigger('backgroundAdd', [
+    state('*', style({
+      background: '#ffffd2',
+      opacity: 0
+    })),
+    state('newBgColor', style({
+      background: 'linear-gradient(to top, #106757, #109f4c)',
+      opacity: 1
+    })),
+    transition('* => newBgColor', animate('2000ms 1998ms cubic-bezier(0.080, 0.720, 0.410, 0.860)')),
   ]);
 }
 

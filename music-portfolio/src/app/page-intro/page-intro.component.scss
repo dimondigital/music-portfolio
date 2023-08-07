@@ -4,11 +4,22 @@
   display: flex;
   flex-direction: column;
   background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  z-index: 8;
+}
+
+.bg {
   background: $color-vite;
   height: 100vh;
   width: 100vw;
-  z-index: 7;
+  position: absolute;
+}
 
+.new-bg {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
 }
 
 .filter {
@@ -22,7 +33,6 @@
 
 
 .filter-yellow {
-
   background-color: #fbf62a;
   opacity: 0.32;
   mix-blend-mode: hard-light;

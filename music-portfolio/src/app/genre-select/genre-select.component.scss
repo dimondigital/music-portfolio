@@ -1,0 +1,36 @@
+@import "variables";
+
+.container {
+  padding: $padding;
+  align-self: center;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  text-transform: uppercase;
+  width: 100%;
+  padding: 2em;
+  transition: $transition-ease-in;
+
+  &.isSelecting {
+    background: rgba(41, 218, 14, 0);
+  }
+
+  &.selected {
+    color: $color-vite;
+  }
+}
+
+li {
+  margin-top: 2em;
+  color: $color-vite;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,3 +1,7 @@
 <div class="container">
-  hi!
+  <app-genre-select
+    [genres]="availableGenres"
+    [genreInput]="selectedGenre"
+    (genreOutput)="onSelectGenre($event)"
+  ></app-genre-select>
 </div>

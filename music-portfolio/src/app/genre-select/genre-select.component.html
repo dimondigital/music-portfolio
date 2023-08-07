@@ -1,0 +1,9 @@
+<div class="container">
+  <button [class.isSelecting]="!isSelecting"
+    [class.selected]="selected" @show1 (click)="onSelect()">{{ selected || placeholder }}</button>
+  <ng-container *ngIf="isSelecting">
+    <ul @show1>
+      <li (click)="onSelectComplete(genreName)" *ngFor="let genreName of genres">{{ genreName }}</li>
+    </ul>
+  </ng-container>
+</div>

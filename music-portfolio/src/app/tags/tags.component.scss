@@ -10,4 +10,9 @@ a {
   text-decoration: auto;
   color: $color-green-vital;
   background-color: $color-green-dark;
+
+  &:hover {
+    background-color: white !important;
+  }
+
 }

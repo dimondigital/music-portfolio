@@ -4,8 +4,10 @@
 
   background: $color-vite;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  margin-bottom: 2em;
+  display: block;
 
-  .title{
+  .title {
     color: $color-green-vital;
     padding: $padding;
     text-align: center;
@@ -21,7 +23,15 @@
     color: black;
 
     span {
-      width: 100%;
+      text-transform: none;
+      letter-spacing: normal;
+      color: #106757;
+      line-height: 1em;
+      font-family: math;
+      text-indent: 1em;
+      text-align: justify;
+      font-size: medium;
+      margin-bottom: 1em;
       display: block;
     }
   }
@@ -31,13 +41,24 @@
 
     a {
       line-height: 1.2em;
-      display: block;
-      width: 100%;
+      //display: block;
+      //width: 100%;
       color: $color-green-vital !important;
+      margin-right: 15px;
+      text-wrap: nowrap;
+      padding: 8px 0px;
+
+      &:hover {
+        background-color: white;
+      }
+
     }
   }
 
   .tags {
     padding: $padding;
+
+
   }
+
 }

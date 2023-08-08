@@ -1,10 +1,21 @@
 {
   "portfolio-items": [
     {
-      "title": ["35 mm game", "Official soundtrack"],
-      "genres": ["Ambient", "Official Soundtrack"],
+      "title": [
+        "35 mm game",
+        "Official soundtrack"
+      ],
+      "genres": [
+        "Ambient",
+        "Official Soundtrack"
+      ],
       "videoId": "TvIrgqo8M9c",
-      "description": ["Emotional", "Hard story"],
+      "description": [
+        "Introducing the mesmerizing and evocative official soundtrack of the acclaimed video game \"35mm.\" Immerse yourself in a sonic journey that mirrors the enigmatic atmosphere and rich narrative of the game itself. Composed by a masterful blend of electronic and orchestral elements, the soundtrack captures the essence of the post-apocalyptic world portrayed in \"35mm.\"",
+        "With each track, the listener is transported to a desolate landscape, where haunting melodies intertwine with ambient textures, creating an emotional landscape that resonates with the player's experience. From moments of introspection to heart-pounding action sequences, the \"35mm\" soundtrack skillfully navigates a range of emotions, enhancing the immersive gameplay.",
+        "The soundtrack is a reflection of the game's thematic depth, capturing the struggle for survival, the exploration of abandoned spaces, and the mysterious allure of an untamed world. As you listen, you'll feel the weight of the characters' stories and the haunting beauty of the world they inhabit.",
+        "Whether you're a fan of atmospheric soundscapes or a connoisseur of emotive compositions, the official \"35mm\" soundtrack promises to captivate your senses and transport you to a realm where music and gameplay seamlessly intertwine. With its haunting melodies, intricate arrangements, and evocative storytelling, this soundtrack is not just an accompaniment to the game, but a standalone masterpiece that deserves a place in your collection."
+      ],
       "links": [
         {
           "title": "official steam game link",
@@ -15,6 +26,95 @@
           "link": "https://store.steampowered.com/app/486210/35MM__Soundtracks/"
         }
       ]
+    },
+    {
+      "title": [
+        "The Light Remake Game",
+        "Official soundtrack"
+      ],
+      "genres": [
+        "Ambient",
+        "Official Soundtrack"
+      ],
+      "videoId": "SNWTSzPIeEA",
+      "description": [
+        "Immerse yourself in the enchanting world of \"The Light Remake\" through its meticulously crafted official soundtrack. Complementing the game's captivating gameplay and atmospheric storytelling, this musical journey invites players to delve deep into a realm where melodies and emotions intertwine.",
+        "With a seamless blend of orchestral grandeur and electronic intricacies, the soundtrack breathes life into every moment of the game. From the serene tranquility of exploration to the heart-pounding crescendos of climactic encounters, each track resonates with the player's experience, elevating the immersion to new heights.",
+        "Navigating through the ethereal landscapes of \"The Light Remake,\" the soundtrack mirrors the evolution of emotions and moods. Majestic compositions underscore moments of discovery and wonder, while subtle ambient textures evoke a sense of mystery and anticipation. The interplay of light and shadow within the game finds its auditory counterpart in the interplay of melodies and harmonies within the soundtrack."
+      ],
+      "links": [
+        {
+          "title": "official steam game link",
+          "link": "hhttps://store.steampowered.com/app/1077520/The_Light_Remake/"
+        },
+        {
+          "title": "official steam music link",
+          "link": "https://store.steampowered.com/app/1298650/The_Light_Remake__Soundtrack/?l=russian"
+        }
+      ]
+    },
+    {
+      "title": [
+        "Byte Bumbling Boogie"
+      ],
+      "genres": [
+        "Chiptune/8bit"
+      ],
+      "soundcloudMeta": {
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1587080647&color=%2300ff10&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "url": "https://soundcloud.com/dmitro-nikolae¶v-438928684/byte-bumbling-boogie",
+        "authorUrl": "https://soundcloud.com/dmitro-nikolaev-438928684",
+        "authorName": "Dmitro Nikolaev",
+        "title": "Byte Bumbling Boogie"
+      },
+      "description": [
+        "The term \"byte\" refers to a unit of digital information, and \"boogie\" refers to a lively and rhythmic dance style.",
+        "It was really new and exciting experience for me. Just some soundtrack for indie unreleased game."
+      ]
+    },
+    {
+      "title": [
+        "Bit Blundering Beat"
+      ],
+      "genres": [
+        "Chiptune/8bit"
+      ],
+      "soundcloudMeta": {
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1587115659&color=%23f2bd50&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "url": "https://soundcloud.com/dmitro-nikolaev-438928684/bit-blundering-beat",
+        "authorUrl": "https://soundcloud.com/dmitro-nikolaev-438928684",
+        "authorName": "Dmitro Nikolaev",
+        "title": "Bit Blundering Beat"
+      },
+      "description": [
+        "In the whimsical realm of \"Bit Blundering Beat,\" three mischievous characters named Pixel, Glitch, and Spark were on a quest to create the grooviest chiptune melody ever heard. Pixel, with his knack for catchy rhythms, was leading the composition, while Glitch added unexpected twists with his erratic electronic sounds. Spark, a playful lightning bolt, provided the beats that made everyone tap their virtual toes.",
+        "One day, as they were crafting their masterpiece, Glitch decided to have some fun and swapped Pixel's melody with Spark's beats. Chaos erupted as the beats danced in wild and unpredictable patterns, leaving Pixel flabbergasted. But instead of getting frustrated, they embraced the mishap and turned it into a collaborative masterpiece.",
+        "Pixel's catchy melody and Spark's playful beats intertwined in an accidental symphony of sound. Glitch's unexpected electronic bursts became the cherry on top, adding an element of surprise. As they hit the climax of their composition, their pixelated world came alive with vibrant colors and quirky characters dancing to the infectious tune.",
+        "The \"Bit Blundering Beat\" became a legend in their realm, not just for its catchy sound but for the tale of three friends who turned a glitch into a masterpiece. It was a reminder that even in the world of technology, embracing mistakes and finding the beauty in unexpected moments could lead to the creation of something truly unique and magical."
+      ]
+    },
+    {
+      "title": [
+        "Nano Love"
+      ],
+      "genres": [
+        "Chiptune/8bit"
+      ],
+      "soundcloudMeta": {
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1587124159&color=%23f6f7f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "url": "https://soundcloud.com/dmitro-nikolaev-438928684/nano-love",
+        "authorUrl": "https://soundcloud.com/dmitro-nikolaev-438928684",
+        "authorName": "Dmitro Nikolaev",
+        "title": "Nano Love"
+      },
+      "description": [
+        "In a digital wonderland called Circuitria, where every pixel had a personality, lived two charming characters named Nano and Byte. Nano was a mischievous pixel who had a penchant for causing a little chaos here and there. Byte, on the other hand, was a reserved and organized pixel who loved everything to be in perfect order.",
+        "One day, Nano decided to play a trick on Byte by rearranging the digital flowers in the pixelated garden. Byte arrived to find a hilarious pattern of pixel petals and couldn't help but chuckle. Instead of getting upset, Byte decided to retaliate in a friendly manner. With a quick rearrangement, Byte turned the flowers into a pixelated smiley face, making Nano burst into laughter.",
+        "As the days went by, Nano and Byte's playful pranks continued, each trying to outdo the other in creative ways. The digital landscape of Circuitria became a canvas for their imaginative antics. From creating pixel art masterpieces to crafting funny musical notes that danced through the air, their friendship blossomed with every joke they played.",
+        "Their fellow digital denizens soon joined in the fun, and Circuitria became a place of laughter and camaraderie. The story of Nano and Byte's playful rivalry spread far and wide, becoming a legend in the digital realm. Their adventures taught everyone that even in a world of 1s and 0s, a little laughter and pixelated love could make life all the more colorful and joyful."
+      ]
     }
   ]
 }
+
+

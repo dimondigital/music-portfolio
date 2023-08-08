@@ -1,14 +1,14 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {Youtube} from "./youtube.pipe";
+import {EmbedSanityzerPipe} from "./embedSanityzer.pipe";
 
 
 @NgModule({
   declarations: [
-    Youtube
+    EmbedSanityzerPipe
   ],
   exports: [
-    Youtube
+    EmbedSanityzerPipe
   ],
   imports: [
     CommonModule

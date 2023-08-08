@@ -8,9 +8,9 @@ import {DomSanitizer, SafeHtml} from '@angular/platform-browser';
  * Angular Pipes.
  */
 @Pipe({
-  name: 'youtube',
+  name: 'embedSanityzer',
 })
-export class Youtube implements PipeTransform {
+export class EmbedSanityzerPipe implements PipeTransform {
   constructor(private dom: DomSanitizer) {
 
   }

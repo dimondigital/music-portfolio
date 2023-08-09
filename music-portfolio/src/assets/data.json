@@ -301,6 +301,52 @@
       "description": [
         "soundset for mobile game"
       ]
+    },
+    {
+      "title": [
+        "ODE TO JESUS", "Sound Restoration"
+      ],
+      "genres": [
+        "Mixing / Mastering"
+      ],
+      "soundcloudMeta": {
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1588540951%3Fsecret_token%3Ds-zlharr5gvzp&color=%238c7c5c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "url": "https://soundcloud.com/dmitro-nikolaev-438928684/ode-to-jesus-before-restoration/s-zlharr5gvzp",
+        "authorUrl": "https://soundcloud.com/dmitro-nikolaev-438928684",
+        "authorName": "Dmitro Nikolaev",
+        "title": "ODE TO JESUS (BEFORE RESTORATION)"
+      },
+      "soundcloudMeta2": {
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1588546275%3Fsecret_token%3Ds-T4239emT48N&color=%238c7c5c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "url": "https://soundcloud.com/dmitro-nikolaev-438928684/ode-to-jesus-after-mixing/s-T4239emT48N",
+        "authorUrl": "https://soundcloud.com/dmitro-nikolaev-438928684",
+        "authorName": "Dmitro Nikolaev",
+        "title": "ODE TO JESUS (AFTER MIXING)"
+      },
+      "description":  ["Sound Restoration Before/After Example"]
+    },
+    {
+      "title": [
+        "AMOR A LA MEXICANA", "Sound Restoration"
+      ],
+      "genres": [
+        "Mixing / Mastering"
+      ],
+      "soundcloudMeta": {
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1588553651%3Fsecret_token%3Ds-OEmpeqZ13za&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "url": "https://soundcloud.com/dmitro-nikolaev-438928684\" title=\"Dmitro Nikolaev\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Dmitro Nikolaev</a> · <a href=\"https://soundcloud.com/dmitro-nikolaev-438928684/amor-a-la-mexicana-before-restoration/s-OEmpeqZ13za",
+        "authorUrl": "https://soundcloud.com/dmitro-nikolaev-438928684",
+        "authorName": "Dmitro Nikolaev",
+        "title": "AMOR A LA MEXICANA (BEFORE RESTORATION)"
+      },
+      "soundcloudMeta2": {
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1588555315%3Fsecret_token%3Ds-5nDZRQqysJv&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "url": "https://soundcloud.com/dmitro-nikolaev-438928684/amor-a-la-mexicana-after-restoration/s-5nDZRQqysJv",
+        "authorUrl": "https://soundcloud.com/dmitro-nikolaev-438928684",
+        "authorName": "Dmitro Nikolaev",
+        "title": "AMOR A LA MEXICANA (AFTER MIXING)"
+      },
+      "description":  ["Sound Restoration Before/After Example"]
     }
   ]
 }

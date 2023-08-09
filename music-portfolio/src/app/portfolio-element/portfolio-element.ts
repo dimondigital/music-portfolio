@@ -5,6 +5,7 @@ export interface PortfolioElement {
   genres: string[],
   videoId: string,
   soundcloudMeta: any,
+  soundcloudMeta2: any,
   bandcampMeta: any,
   description: string[],
   links: Link[],

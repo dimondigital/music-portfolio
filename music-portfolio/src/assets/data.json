@@ -107,14 +107,201 @@
         "authorName": "Dmitro Nikolaev",
         "title": "Nano Love"
       },
-      "description": [
+      "description":  [
         "In a digital wonderland called Circuitria, where every pixel had a personality, lived two charming characters named Nano and Byte. Nano was a mischievous pixel who had a penchant for causing a little chaos here and there. Byte, on the other hand, was a reserved and organized pixel who loved everything to be in perfect order.",
         "One day, Nano decided to play a trick on Byte by rearranging the digital flowers in the pixelated garden. Byte arrived to find a hilarious pattern of pixel petals and couldn't help but chuckle. Instead of getting upset, Byte decided to retaliate in a friendly manner. With a quick rearrangement, Byte turned the flowers into a pixelated smiley face, making Nano burst into laughter.",
         "As the days went by, Nano and Byte's playful pranks continued, each trying to outdo the other in creative ways. The digital landscape of Circuitria became a canvas for their imaginative antics. From creating pixel art masterpieces to crafting funny musical notes that danced through the air, their friendship blossomed with every joke they played.",
         "Their fellow digital denizens soon joined in the fun, and Circuitria became a place of laughter and camaraderie. The story of Nano and Byte's playful rivalry spread far and wide, becoming a legend in the digital realm. Their adventures taught everyone that even in a world of 1s and 0s, a little laughter and pixelated love could make life all the more colorful and joyful."
       ]
+    },
+    {
+      "title": [
+        "Relax and Think"
+      ],
+      "genres": [
+        "Orchestral", "Official Soundtrack"
+      ],
+      "soundcloudMeta": {
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193855326&color=%23afd7f2&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "url": "https://soundcloud.com/elion-sea/relax-and-think",
+        "authorUrl": "https://soundcloud.com/elion-sea",
+        "authorName": "Dmitro Nikolaev",
+        "title": "Relax and Think"
+      },
+      "description":  ["The part of soundtrack for Astral Guard indie flash game.", "Shop theme."]
+    },
+    {
+      "title": [
+        "Last Hope"
+      ],
+      "genres": [
+        "Orchestral", "Official Soundtrack"
+      ],
+      "soundcloudMeta": {
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193854303&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "url": "https://soundcloud.com/elion-sea/last-hope",
+        "authorUrl": "https://soundcloud.com/elion-sea",
+        "authorName": "Dmitro Nikolaev",
+        "title": "Last Hope"
+      },
+      "description":  ["The part of soundtrack for Astral Guard indie flash game.", "Intro theme."]
+    },
+    {
+      "title": [
+        "Battle Punch"
+      ],
+      "genres": [
+        "Orchestral", "Official Soundtrack"
+      ],
+      "soundcloudMeta": {
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193853907&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "url": "https://soundcloud.com/elion-sea/battle-punch",
+        "authorUrl": "https://soundcloud.com/elion-sea",
+        "authorName": "Dmitro Nikolaev",
+        "title": "Battle Punch"
+      },
+      "description":  ["The part of soundtrack for Astral Guard indie flash game.", "Level battle theme."]
+    },
+    {
+      "title": [
+        "Royal Flash"
+      ],
+      "genres": [
+        "Jazz", "Official Soundtrack"
+      ],
+      "soundcloudMeta": {
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/191729711&color=%23b97c2b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "url": "https://soundcloud.com/elion-sea/one-jazz",
+        "authorUrl": "https://soundcloud.com/elion-sea",
+        "authorName": "Dmitro Nikolaev",
+        "title": "Royal Flash"
+      },
+      "links": [
+        {
+          "title": "official application site",
+          "link": "vk.com/gcpoker_game?mid=23202904"
+        }
+      ],
+      "description":  ["The main game track from 'GC Poker' VK application"]
+    },
+    {
+      "title": [
+        "Sweet Air"
+      ],
+      "genres": [
+        "Trance"
+      ],
+      "bandcampMeta": {
+        "src": "https://bandcamp.com/EmbeddedPlayer/album=1744663375/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        "url": "https://dimondigital.bandcamp.com/album/sweet-air",
+        "authorUrl": "https://dimondigital.bandcamp.com",
+        "authorName": "Dimon Digital",
+        "title": "Sweet Air by Dimon Digital"
+      },
+      "description":  ["Uplifting and Progressive Trance Unofficial EP"]
+    },
+    {
+      "title": [
+        "Joker",
+        "3/4 BTZ EP"
+      ],
+      "genres": [
+        "Hip Hop"
+      ],
+      "videoId": "ACnRxbzUGj0",
+      "description": [
+        "Release date: 9 April 2019"
+      ]
+    },
+    {
+      "title": [
+        "Fly to End",
+        "3/4 BTZ EP"
+      ],
+      "genres": [
+        "Hip Hop"
+      ],
+      "videoId": "kM_Iw9gNzaw",
+      "description": [
+        "Release date: 9 April 2019"
+      ]
+    },
+    {
+      "title": [
+        "Ready",
+        "3/4 BTZ EP"
+      ],
+      "genres": [
+        "Hip Hop"
+      ],
+      "videoId": "mOs3LR58azI",
+      "description": [
+        "Release date: 9 April 2019"
+      ]
+    },
+    {
+      "title": [
+        "Deadly Glory",
+        "3/4 BTZ EP"
+      ],
+      "genres": [
+        "Hip Hop"
+      ],
+      "videoId": "CqylxQA9zxM",
+      "description": [
+        "Release date: 9 April 2019"
+      ]
+    },
+    {
+      "title": [
+        "Pull the Trigger, Push the Button",
+        "3/4 BTZ EP"
+      ],
+      "genres": [
+        "Hip Hop"
+      ],
+      "videoId": "QVxaeJeiHQI",
+      "description": [
+        "Release date: 9 April 2019"
+      ]
+    },
+    {
+      "title": [
+        "Smarty Home"
+      ],
+      "genres": [
+        "Sound Design"
+      ],
+      "videoId": "58JqfqJcfOg",
+      "description": [
+        "Cheers, people! Share with you my new motion design. Idea is simple and pure.",
+        "\"Dimon Digital\"©  2021"
+      ]
+    },
+    {
+      "title": [
+        "ASTRAL GUARD"
+      ],
+      "genres": [
+        "Sound Design"
+      ],
+      "videoId": "xocRENbyKzc",
+      "description": [
+        "Sound Design for indie platformer game."
+      ]
+    },
+    {
+      "title": [
+        "\n\n\nIRON FINGER"
+      ],
+      "genres": [
+        "Sound Design"
+      ],
+      "videoId": "8FaV6R7QDSU",
+      "description": [
+        "soundset for mobile game"
+      ]
     }
   ]
 }
-
 

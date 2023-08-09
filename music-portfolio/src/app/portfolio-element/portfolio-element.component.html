@@ -8,6 +8,9 @@
   <ng-container *ngIf="data.soundcloudMeta">
     <div [innerHTML]="getEmbeddedSoundcloudLink(data.soundcloudMeta) | embedSanityzer"></div>
   </ng-container>
+  <ng-container *ngIf="data.bandcampMeta">
+    <div [innerHTML]="getEmbeddedBandcampLink(data.bandcampMeta) | embedSanityzer"></div>
+  </ng-container>
   <div class="description">
     <span *ngFor="let d of data.description">{{ d }}</span>
   </div>

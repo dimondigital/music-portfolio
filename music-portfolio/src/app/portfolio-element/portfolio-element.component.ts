@@ -22,4 +22,10 @@ export class PortfolioElementComponent {
     `;
   }
 
+  getEmbeddedBandcampLink(bandcampMeta: any): string {
+    return `
+    <iframe style="border: 0; width: 100%; height: 241px; margin: 0 auto;" src="${bandcampMeta.src}" seamless><a href="${bandcampMeta.url}">${bandcampMeta.title}</a></iframe>
+    `;
+  }
+
 }

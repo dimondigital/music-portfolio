@@ -25,19 +25,17 @@ export class PageIntroComponent {
 
   public isHideGroup: boolean = false;
 
-  imgSrc: string = "assets/avatar.png";
+  imgSrc: string = "assets/ava2000.jpg";
   introText: string[] = [
     'Hi!',
     'My name is',
-    'Dmytro Nikolaev',
+    'Dimon May.',
     'I\'m music producer &',
     'sound designer',
-    'from ukraine',
-    'I have a 13+ years of music production',
-    'commercial experience',
-    'I\'m glad to see you here',
-    'I did all of those',
-    'From the heart and with a great passion',
+    'from ukraine.',
+    'I\'m glad you here)',
+    'This portfolio accommodates',
+    'as new as old projects.',
     'Enjoy!)'
   ];
   isShowButton: boolean = false;

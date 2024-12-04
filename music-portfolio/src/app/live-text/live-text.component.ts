@@ -13,7 +13,7 @@ export class LiveTextComponent implements OnInit, OnDestroy {
   totalTextCounter: number = 0;
   allSubscriptions: Subscription[] = [];
   isFinished: boolean = false;
-  typingLetterInterval: number = 60;
+  typingLetterInterval: number = 25;
   @Output() isTypingFinished: EventEmitter<boolean> = new EventEmitter<boolean>();
 
   @HostListener('document:click')
@@ -43,7 +43,7 @@ export class LiveTextComponent implements OnInit, OnDestroy {
           if (this.isFinished) return;
           this.totalTextCounter++;
           this.runNextTimer(this.totalTextCounter);
-        }, 1000);
+        }, 200);
 
       }
     }

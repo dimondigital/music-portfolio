@@ -2,15 +2,14 @@
 
 .container {
 
-  background: $color-vite;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background: #107654;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   margin-bottom: 2em;
   display: block;
 
   .title {
     color: $color-green-vital;
     padding: $padding;
-    text-align: center;
 
     h2 {
       font-size: x-large;
@@ -24,13 +23,12 @@
 
     span {
       text-transform: none;
-      letter-spacing: normal;
-      color: #106757;
-      line-height: 1em;
-      font-family: math;
+      color: $color-green-vital;
+      font-family: "Unna", serif;
+      font-weight: 400;
       text-indent: 1em;
       text-align: justify;
-      font-size: medium;
+      font-size: large;
       margin-bottom: 1em;
       display: block;
     }
@@ -41,15 +39,13 @@
 
     a {
       line-height: 1.2em;
-      //display: block;
-      //width: 100%;
       color: $color-green-vital !important;
       margin-right: 15px;
       text-wrap: nowrap;
-      padding: 8px 0px;
+      padding: 8px 0;
 
       &:hover {
-        background-color: white;
+        background-color: #ffffd2;
       }
 
     }

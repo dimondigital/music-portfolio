@@ -4,13 +4,18 @@
 @import "assets/webfontkit-20230805-153002/font-argentum";
 
 body {
-  font-family: "argentum_sansblack", serif;
-  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+
+  //text-transform: uppercase;
   color: $color-green-light;
   //letter-spacing: -0.05em;
   font-size: large;
   line-height: 1em;
   //overflow: hidden;
+}
+
+h2 {
+  font-weight: 600;
 }
 
 ::-webkit-scrollbar {

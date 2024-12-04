@@ -7,17 +7,15 @@
 span {
   display: flex;
   width: 100%;
+  line-height: 1.5em;
+  font-size: larger;
 }
 
 p {
-  background-image:$gradient-sunny-reverse;
+
   background-size: 100%;
   background-repeat: repeat;
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
+  color: #ffffd2;
 }
 
 

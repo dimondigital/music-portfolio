@@ -32,10 +32,10 @@ export class PageIntroComponent {
     'Dimon May.',
     'I\'m music producer &',
     'sound designer',
-    'from ukraine.',
-    'I\'m glad you here)',
+    'from Ukraine.',
+    'I\'m glad you here',
     'This portfolio accommodates',
-    'as new as old projects.',
+    'both as new as old projects.',
     'Enjoy!)'
   ];
   isShowButton: boolean = false;
@@ -53,7 +53,7 @@ export class PageIntroComponent {
   private beginNavigation(): void {
     setTimeout(() => {
       this.router.navigate(['/showcase']);
-    }, 4000)
+    }, 2000)
   }
 
 }

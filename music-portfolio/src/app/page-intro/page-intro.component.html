@@ -1,6 +1,6 @@
 <div class="container intro">
-<div class="bg" [@backgroundRemove]="!isHideGroup ? '*' : 'void'"></div>
-<app-live-text @show2 [@hide2]="!isHideGroup ? '*' : 'void'"
+  <div class="bg" [@backgroundRemove]="!isHideGroup ? '*' : 'void'"></div>
+  <app-live-text @show2 [@hide2]="!isHideGroup ? '*' : 'void'"
                  style="height: 40vh; z-index: inherit;" (isTypingFinished)="showButton()"
                  [totalText]="introText"></app-live-text>
 
@@ -9,5 +9,7 @@
             (click)="navigationToShowcasePage($event)">LISTEN
     </button>
   </ng-container>
+
+  <app-social></app-social>
 
 </div>

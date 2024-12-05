@@ -1,5 +1,5 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {show1, show2} from "../animations/custom-animations";
+import {show1, show2} from "../../animations/custom-animations";
 
 @Component({
   selector: 'app-genre-select',

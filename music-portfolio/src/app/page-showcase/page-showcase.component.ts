@@ -1,6 +1,6 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {ActivatedRoute, Router} from "@angular/router";
-import {PortfolioElement} from "../portfolio-element/portfolio-element";
+import {PortfolioElement} from "../shared/portfolio-element/portfolio-element";
 import {PortfolioService} from "../portfolio.service";
 import {Subscription} from "rxjs";
 import {hide1, show1, showAndHide} from "../animations/custom-animations";

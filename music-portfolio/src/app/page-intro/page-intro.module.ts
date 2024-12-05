@@ -1,10 +1,10 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
-import { PageIntroRoutingModule } from './page-intro-routing.module';
-import { PageIntroComponent } from './page-intro.component';
-import {AvatarModule} from "../avatar/avatar.module";
-import {LiveTextModule} from "../live-text/live-text.module";
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {PageIntroRoutingModule} from './page-intro-routing.module';
+import {PageIntroComponent} from './page-intro.component';
+import {AvatarModule} from "../shared/avatar/avatar.module";
+import {LiveTextModule} from "../shared/live-text/live-text.module";
+import {SocialModule} from "../shared/social/social.module";
 
 
 @NgModule({
@@ -15,7 +15,9 @@ import {LiveTextModule} from "../live-text/live-text.module";
     CommonModule,
     PageIntroRoutingModule,
     AvatarModule,
-    LiveTextModule
+    LiveTextModule,
+    SocialModule
   ]
 })
-export class PageIntroModule { }
+export class PageIntroModule {
+}

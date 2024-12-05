@@ -1,0 +1,26 @@
+@import "../../../style/variables";
+
+.social {
+  position: fixed;
+  padding: 2em;
+  //background-color: #fff;
+  left: 0;
+  bottom: 0;
+
+  a {
+    margin-right: 1em;
+    border-radius: 0.5em !important;
+    border: none;
+    img {
+      max-width: 2em;
+
+    }
+  }
+}
+
+.filter-sunny {
+  background-color: #fbf62a;
+  opacity: 0.32;
+  mix-blend-mode: hard-light;
+}
+

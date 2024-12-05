@@ -1,12 +1,12 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {AvatarComponent} from '../avatar/avatar.component';
-import {AvatarModule} from '../avatar/avatar.module';
-import { LiveTextModule } from '../live-text/live-text.module';
-import { GenreSelectModule } from '../genre-select/genre-select.module';
-import { PortfolioElementModule } from '../portfolio-element/portfolio-element.module';
-import { YoutubePipeModule } from '../youtube-pipe/youtube-pipe.module';
-import { TagsModule } from '../tags/tags.module';
+import {AvatarComponent} from './avatar/avatar.component';
+import {AvatarModule} from './avatar/avatar.module';
+import { LiveTextModule } from './live-text/live-text.module';
+import { GenreSelectModule } from './genre-select/genre-select.module';
+import { PortfolioElementModule } from './portfolio-element/portfolio-element.module';
+import { YoutubePipeModule } from './youtube-pipe/youtube-pipe.module';
+import { TagsModule } from './tags/tags.module';
 
 
 @NgModule({

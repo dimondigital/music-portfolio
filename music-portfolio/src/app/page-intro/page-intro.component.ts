@@ -35,8 +35,7 @@ export class PageIntroComponent {
     'from Ukraine.',
     'I\'m glad you here',
     'This portfolio accommodates',
-    'both as new as old projects.',
-    'Enjoy!)'
+    'both as new as old projects.'
   ];
   isShowButton: boolean = false;
 

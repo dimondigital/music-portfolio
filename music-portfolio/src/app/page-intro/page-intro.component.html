@@ -1,12 +1,12 @@
 <div class="container intro">
   <div class="bg" [@backgroundRemove]="!isHideGroup ? '*' : 'void'"></div>
   <app-live-text @show2 [@hide2]="!isHideGroup ? '*' : 'void'"
-                 style="height: 40vh; z-index: inherit;" (isTypingFinished)="showButton()"
+                 style=" z-index: inherit;" (isTypingFinished)="showButton()"
                  [totalText]="introText"></app-live-text>
 
   <ng-container *ngIf="isShowButton">
-    <button @show3 [@hide1]="!isHideGroup ? '*' : 'void'" style="height: 10vh; z-index: 100; background-color: #dedad9; font-weight: 900;"
-            (click)="navigationToShowcasePage($event)">LISTEN
+    <button class="btn-intro" @show3 [@hide1]="!isHideGroup ? '*' : 'void'"
+            (click)="navigationToShowcasePage($event)">Enjoy!
     </button>
   </ng-container>
 

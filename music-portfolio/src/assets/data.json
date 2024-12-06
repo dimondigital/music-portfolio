@@ -61,7 +61,7 @@
         "Chiptune/8bit"
       ],
       "soundcloudMeta": {
-        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1587080647&color=%2300ff10&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1587080647&color=%2300ff10&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
         "url": "https://soundcloud.com/dmitro-nikolae¶v-438928684/byte-bumbling-boogie",
         "authorUrl": "https://soundcloud.com/dmitro-nikolaev-438928684",
         "authorName": "Dmitro Nikolaev",
@@ -80,7 +80,7 @@
         "Chiptune/8bit"
       ],
       "soundcloudMeta": {
-        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1587115659&color=%23f2bd50&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1587115659&color=%23f2bd50&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
         "url": "https://soundcloud.com/dmitro-nikolaev-438928684/bit-blundering-beat",
         "authorUrl": "https://soundcloud.com/dmitro-nikolaev-438928684",
         "authorName": "Dmitro Nikolaev",
@@ -101,7 +101,7 @@
         "Chiptune/8bit"
       ],
       "soundcloudMeta": {
-        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1587124159&color=%23f6f7f7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1587124159&color=%23f6f7f7&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
         "url": "https://soundcloud.com/dmitro-nikolaev-438928684/nano-love",
         "authorUrl": "https://soundcloud.com/dmitro-nikolaev-438928684",
         "authorName": "Dmitro Nikolaev",
@@ -122,7 +122,7 @@
         "Orchestral", "Official Soundtrack"
       ],
       "soundcloudMeta": {
-        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193855326&color=%23afd7f2&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193855326&color=%23afd7f2&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
         "url": "https://soundcloud.com/elion-sea/relax-and-think",
         "authorUrl": "https://soundcloud.com/elion-sea",
         "authorName": "Dmitro Nikolaev",
@@ -138,7 +138,7 @@
         "Orchestral", "Official Soundtrack"
       ],
       "soundcloudMeta": {
-        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193854303&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193854303&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
         "url": "https://soundcloud.com/elion-sea/last-hope",
         "authorUrl": "https://soundcloud.com/elion-sea",
         "authorName": "Dmitro Nikolaev",
@@ -154,7 +154,7 @@
         "Orchestral", "Official Soundtrack"
       ],
       "soundcloudMeta": {
-        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193853907&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193853907&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
         "url": "https://soundcloud.com/elion-sea/battle-punch",
         "authorUrl": "https://soundcloud.com/elion-sea",
         "authorName": "Dmitro Nikolaev",
@@ -170,7 +170,7 @@
         "Jazz", "Official Soundtrack"
       ],
       "soundcloudMeta": {
-        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/191729711&color=%23b97c2b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/191729711&color=%23b97c2b&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
         "url": "https://soundcloud.com/elion-sea/one-jazz",
         "authorUrl": "https://soundcloud.com/elion-sea",
         "authorName": "Dmitro Nikolaev",
@@ -369,14 +369,14 @@
         "Mixing / Mastering"
       ],
       "soundcloudMeta": {
-        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1588540951%3Fsecret_token%3Ds-zlharr5gvzp&color=%238c7c5c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1588540951%3Fsecret_token%3Ds-zlharr5gvzp&color=%238c7c5c&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
         "url": "https://soundcloud.com/dmitro-nikolaev-438928684/ode-to-jesus-before-restoration/s-zlharr5gvzp",
         "authorUrl": "https://soundcloud.com/dmitro-nikolaev-438928684",
         "authorName": "Dmitro Nikolaev",
         "title": "ODE TO JESUS (BEFORE RESTORATION)"
       },
       "soundcloudMeta2": {
-        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1588546275%3Fsecret_token%3Ds-T4239emT48N&color=%238c7c5c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1588546275%3Fsecret_token%3Ds-T4239emT48N&color=%238c7c5c&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
         "url": "https://soundcloud.com/dmitro-nikolaev-438928684/ode-to-jesus-after-mixing/s-T4239emT48N",
         "authorUrl": "https://soundcloud.com/dmitro-nikolaev-438928684",
         "authorName": "Dmitro Nikolaev",
@@ -392,14 +392,14 @@
         "Mixing / Mastering"
       ],
       "soundcloudMeta": {
-        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1588553651%3Fsecret_token%3Ds-OEmpeqZ13za&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1588553651%3Fsecret_token%3Ds-OEmpeqZ13za&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
         "url": "https://soundcloud.com/dmitro-nikolaev-438928684\" title=\"Dmitro Nikolaev\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Dmitro Nikolaev</a> · <a href=\"https://soundcloud.com/dmitro-nikolaev-438928684/amor-a-la-mexicana-before-restoration/s-OEmpeqZ13za",
         "authorUrl": "https://soundcloud.com/dmitro-nikolaev-438928684",
         "authorName": "Dmitro Nikolaev",
         "title": "AMOR A LA MEXICANA (BEFORE RESTORATION)"
       },
       "soundcloudMeta2": {
-        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1588555315%3Fsecret_token%3Ds-5nDZRQqysJv&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1588555315%3Fsecret_token%3Ds-5nDZRQqysJv&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
         "url": "https://soundcloud.com/dmitro-nikolaev-438928684/amor-a-la-mexicana-after-restoration/s-5nDZRQqysJv",
         "authorUrl": "https://soundcloud.com/dmitro-nikolaev-438928684",
         "authorName": "Dmitro Nikolaev",

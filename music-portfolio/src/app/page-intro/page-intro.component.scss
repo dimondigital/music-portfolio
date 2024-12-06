@@ -9,6 +9,16 @@
   width: 100vw;
   z-index: 8;
   justify-content: center;
+  align-items: center;
+}
+
+.btn-intro {
+  padding: 1em;
+  height: 5em;
+  max-width: 5em;
+  z-index: 100;
+  background-color: #dedad9;
+  font-weight: 900;
 }
 
 .bg {
@@ -70,9 +80,7 @@
 }
 @media only screen and (max-width: 500px) { /*MOBILE DISPLAY*/
   button {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
+
+    max-width: fit-content;
   }
 }

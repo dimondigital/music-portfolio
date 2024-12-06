@@ -36,6 +36,8 @@
 
   .links {
     padding: $padding;
+    display: flex;
+    flex-direction: column;
 
     a {
       line-height: 1.2em;
@@ -57,4 +59,12 @@
 
   }
 
+}
+
+@media only screen and (max-width: 500px) { /*MOBILE DISPLAY*/
+  .description {
+    span {
+      text-align: start !important;
+    }
+  }
 }

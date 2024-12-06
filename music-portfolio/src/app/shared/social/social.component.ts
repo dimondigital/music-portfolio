@@ -6,6 +6,4 @@ import { Component } from '@angular/core';
   styleUrl: './social.component.scss'
 })
 export class SocialComponent {
-  // данный компонент представляет собой набор иконок, расположенный в нижнем левом углу, по нажатии на которые
-  // пользователь переходит на представленный иконкой ресурс.
 }

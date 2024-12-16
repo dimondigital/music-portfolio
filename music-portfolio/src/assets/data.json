@@ -2,28 +2,31 @@
   "portfolio-items": [
     {
       "title": [
-        "35 mm game",
-        "Official soundtrack"
+        "Soundtrack for indie game ”35mm”",
+        "(2016)"
       ],
       "genres": [
         "Ambient",
-        "Official Soundtrack"
+        "Soundtrack"
       ],
       "videoId": "TvIrgqo8M9c",
       "description": [
-        "Introducing the mesmerizing and evocative official soundtrack of the acclaimed video game \"35mm.\" Immerse yourself in a sonic journey that mirrors the enigmatic atmosphere and rich narrative of the game itself. Composed by a masterful blend of electronic and orchestral elements, the soundtrack captures the essence of the post-apocalyptic world portrayed in \"35mm.\"",
-        "With each track, the listener is transported to a desolate landscape, where haunting melodies intertwine with ambient textures, creating an emotional landscape that resonates with the player's experience. From moments of introspection to heart-pounding action sequences, the \"35mm\" soundtrack skillfully navigates a range of emotions, enhancing the immersive gameplay.",
-        "The soundtrack is a reflection of the game's thematic depth, capturing the struggle for survival, the exploration of abandoned spaces, and the mysterious allure of an untamed world. As you listen, you'll feel the weight of the characters' stories and the haunting beauty of the world they inhabit.",
-        "Whether you're a fan of atmospheric soundscapes or a connoisseur of emotive compositions, the official \"35mm\" soundtrack promises to captivate your senses and transport you to a realm where music and gameplay seamlessly intertwine. With its haunting melodies, intricate arrangements, and evocative storytelling, this soundtrack is not just an accompaniment to the game, but a standalone masterpiece that deserves a place in your collection."
+        "“<a target=\"_blank\" href=\"https://www.oed.com/dictionary/eternity_n\">Eternity</a>, in common parlance, is an infinite amount of time that never ends or the quality, condition or fact of being everlasting or eternal. Classical philosophy, however, defines eternity as what is timeless or exists outside time, whereas sempiternity corresponds to infinite duration. ” (c) Wikipedia",
+        "First of all, when I started to develop and write the soundtrack for the game on request of indie game developer <a target=\"_blank\" href=\"https://store.steampowered.com/app/466500/?snr=1_5_9__205\">«35mm»</a> <a target=\"_blank\" href=\"https://www.youtube.com/channel/UC8MT689c3ppAc_2_YH0LEdA\">Sergei Noskov</a>, I with great enthusiasm immersed myself in listening and analyzing the references he asked to orient. It was the music of such a famous composer as <a target=\"_blank\" href=\"https://www.imdb.com/name/nm0005949/?ref_=nv_sr_srsg_0_tt_0_nm_5_in_0_q_Artemiev%2520Eduard\">Eduard Artemiev</a> for the films of <a target=\"_blank\" href=\"https://www.imdb.com/name/nm0001789/\">Andrei Tarkovsky</a> <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=TGRDYpCmMcM\">«Stalker»</a> and <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=Z8ZhQPaw4rE\">«Solyaris»</a>. In several compositions I tried to convey a similar atmosphere, even using digital imitations of the 80s' vintage synths.",
+        "As for modern artists, I have already relied on my own tastes and preferences. <a target=\"_blank\" href=\"https://soundcloud.com/carbonbasedlifeforms\">Carbon Based Lifeforms</a>, <a target=\"_blank\" href=\"https://bandcamp.com/threesix\">36</a>, <a target=\"_blank\" href=\"https://soundcloud.com/astropilot\">Astropilot</a> and other artists of the <a target=\"_blank\" href=\"https://rateyourmusic.com/genre/ambient/\">ambient</a> genre perfectly complemented the list of inspirations that convey an atmosphere of eternity and post-apocalyptic mood.",
+        "My friend, an expert in electronic experimental music Sergei Grishin was a partner in the creation of several compositions. His experience in <a target=\"_blank\" href=\"https://rateyourmusic.com/genre/darkside/?__cf_chl_tk=Js26rUTKaEsGuQxkzfElMsZ8vokwWpRAmrj9SbUszl4-1734373045-1.0.1.1-CtdIab.kD8boJSywt5ANl6AH9.CDJXN4LTzm9KZkUjc\">darkside</a>  was very useful in creating music for the most disturbing moments of the game.",
+        "But the main inspiration of course I got from Sergei Noskov’s own game. Screenshots from the game and other photos and whole albums that Sergei shared with me."
       ],
       "links": [
         {
-          "title": "official steam game link",
-          "link": "https://store.steampowered.com/app/466500/35MM/"
+          "title": "See “35mm” Game Link",
+          "link": "https://store.steampowered.com/app/466500/35MM/",
+          "icon": "steam"
         },
         {
-          "title": "official steam music link",
-          "link": "https://store.steampowered.com/app/486210/35MM__Soundtracks/"
+          "title": "See “35mm” OST Reviews",
+          "link": "https://store.steampowered.com/app/486210/35MM__Soundtracks/",
+          "icon": "steam"
         }
       ]
     },

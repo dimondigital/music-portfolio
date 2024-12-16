@@ -35,28 +35,42 @@
   }
 
   .links {
-    padding: $padding;
     display: flex;
     flex-direction: column;
 
     a {
+      text-align: center;
       line-height: 1.2em;
       color: $color-green-vital !important;
-      margin-right: 15px;
       text-wrap: nowrap;
       padding: 8px 0;
+      transition: background-color 0.1s ease-in;
 
       &:hover {
         background-color: #ffffd2;
+        cursor: $cursor-pointer 12 12, auto !important;
+        transition: background-color 0.1s ease-out;
       }
 
+
     }
+
+
   }
+
 
   .tags {
     padding: $padding;
 
 
+  }
+
+  .icon > svg {
+    max-width: 1em;
+  }
+
+  .icon-steam > svg {
+    fill: #1e3050;
   }
 
 }

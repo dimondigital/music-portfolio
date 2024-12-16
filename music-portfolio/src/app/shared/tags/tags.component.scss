@@ -13,6 +13,7 @@ a {
 
   &:hover {
     background-color: #ffffd2 !important;
+    cursor: $cursor-pointer 12 12, auto !important;
   }
 
 }

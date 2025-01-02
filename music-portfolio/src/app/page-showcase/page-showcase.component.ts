@@ -31,6 +31,7 @@ export class PageShowcaseComponent implements OnInit, OnDestroy {
       .subscribe((value) => {
         this.selectedGenre = this.route.snapshot.queryParams['genre'];
         this.getPortfolioElements();
+        this.getAvailableGenres();
       });
   }
 
@@ -50,6 +51,7 @@ export class PageShowcaseComponent implements OnInit, OnDestroy {
       .subscribe((data: {}): void => {
         // @ts-ignore
         this.availableGenres = data["genres"];
+        console.log(`this.availableGenres: ` + this.availableGenres);
       });
   }
   selectedGenre: string = '';

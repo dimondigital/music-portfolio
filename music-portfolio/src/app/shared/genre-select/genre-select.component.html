@@ -3,7 +3,7 @@
     [class.selected]="selected" @show1 (click)="onSelect()">{{ selected || placeholder }}</button>
   <ng-container *ngIf="isSelecting">
     <ul @show1>
-      <li (click)="onSelectComplete(genreName)" *ngFor="let genreName of genres">{{ genreName }}</li>
+      <li (click)="onSelectComplete(genreName)" *ngFor="let genreName of genres" [ngClass]="{'special-item' : genreName == 'Services'}">{{ genreName }}</li>
     </ul>
   </ng-container>
 </div>

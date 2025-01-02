@@ -24,10 +24,6 @@ export class GenreSelectComponent implements OnInit{
     }
   }
 
-  public selectGenre(): void {
-
-  }
-
   public onSelect(): void {
     this.isSelecting = true;
     this.isSelectingOutput.emit(this.isSelecting);

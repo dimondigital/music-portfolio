@@ -14,7 +14,9 @@ import {hide1, show1, showAndHide} from "../animations/custom-animations";
 export class PageShowcaseComponent implements OnInit, OnDestroy {
 
   portfolioElements: PortfolioElement[] = [];
+  availableGenres: string[] = [];
   getPortfolioItemsSub!: Subscription;
+  getAvailableGenresSub!: Subscription;
   isSelectingGenre: boolean = false;
 
   constructor(
@@ -33,7 +35,6 @@ export class PageShowcaseComponent implements OnInit, OnDestroy {
   }
 
   private getPortfolioElements(): void {
-
     this.getPortfolioItemsSub = this.portfolioService.getPortfolioElements()
       .subscribe((data: {}): void => {
         this.portfolioElements = [];
@@ -44,22 +45,19 @@ export class PageShowcaseComponent implements OnInit, OnDestroy {
       })
   }
 
-  availableGenres: string[] = [
-    'Ambient',
-    'Chiptune/8bit',
-    'Trance',
-    'Orchestral',
-    'Jazz',
-    'Official Soundtrack',
-    'Hip Hop',
-    'Sound Design',
-    'Mixing / Mastering',
-  ];
+  private getAvailableGenres(): void {
+    this.getAvailableGenresSub = this.portfolioService.getAvailableGenres()
+      .subscribe((data: {}): void => {
+        // @ts-ignore
+        this.availableGenres = data["genres"];
+      });
+  }
   selectedGenre: string = '';
 
   onSelectGenre(genre: string): void {
     this.selectedGenre = genre;
     this.getPortfolioElements();
+    this.getAvailableGenres();
     this.router.navigate([], {
       relativeTo: this.route,
       queryParams: {

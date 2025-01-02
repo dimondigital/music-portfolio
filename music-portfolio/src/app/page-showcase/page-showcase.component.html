@@ -6,7 +6,7 @@
     (isSelectingOutput)="isSelectingGenre = $event"
     (genreOutput)="onSelectGenre($event)"
   ></app-genre-select>
-  <div style="">
+  <div>
     <ng-container *ngIf="selectedGenre && !isSelectingGenre">
       <app-portfolio-element @show1 *ngFor="let el of portfolioElements" [data]="el"></app-portfolio-element>
     </ng-container>

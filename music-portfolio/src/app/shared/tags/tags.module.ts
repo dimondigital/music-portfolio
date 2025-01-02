@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TagsComponent } from './tags.component';
+import {RouterLink} from "@angular/router";
+import {TrimModule} from "../trim/trim.module";
 
 
 
@@ -12,7 +14,9 @@ import { TagsComponent } from './tags.component';
     TagsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterLink,
+    TrimModule
   ]
 })
 export class TagsModule { }

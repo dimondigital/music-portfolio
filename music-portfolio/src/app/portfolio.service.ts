@@ -14,5 +14,9 @@ export class PortfolioService {
     return this.http.get<Observable<any>>('assets/data.json')
   }
 
+  getAvailableGenres(): Observable<Observable<any>> {
+    return this.http.get<Observable<any>>('assets/genres.json')
+  }
+
 
 }

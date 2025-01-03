@@ -5,6 +5,12 @@
   <ng-container *ngIf="data.videoId">
     <div [innerHTML]="getEmbeddedVideoLink(data.videoId) | embedSanityzer"></div>
   </ng-container>
+  <ng-container *ngIf="data.videoId2">
+    <div [innerHTML]="getEmbeddedVideoLink(data.videoId2) | embedSanityzer"></div>
+  </ng-container>
+  <ng-container *ngIf="data.videoId3">
+    <div [innerHTML]="getEmbeddedVideoLink(data.videoId3) | embedSanityzer"></div>
+  </ng-container>
   <ng-container *ngIf="data.soundcloudMeta">
     <div [innerHTML]="getEmbeddedSoundcloudLink(data.soundcloudMeta) | embedSanityzer"></div>
   </ng-container>

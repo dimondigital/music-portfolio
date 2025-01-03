@@ -455,15 +455,23 @@
         "",
         "If you record voice and music separately result could be much better.",
         "Ask me any question in PM",
-        "Service costs: from $10"
+        "Service costs: from $10",
+        "Service available through Fiverr, Upwork of Direct <a target=\"_blank\" href=\"https://www.indeed.com/career-advice/career-development/remote-collaboration\">Remote Cooperation</a>"
       ],
-      "links": [
-        {
-          "title": "You would find examples here",
-          "link": "/showcase?genre=Mixing%20%2F%20Mastering",
-          "internal": true
-        }
-      ]
+      "soundcloudMeta": {
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1588540951%3Fsecret_token%3Ds-zlharr5gvzp&color=%238c7c5c&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
+        "url": "https://soundcloud.com/dmitro-nikolaev-438928684/ode-to-jesus-before-restoration/s-zlharr5gvzp",
+        "authorUrl": "https://soundcloud.com/dmitro-nikolaev-438928684",
+        "authorName": "Dmitro Nikolaev",
+        "title": "ODE TO JESUS (BEFORE RESTORATION)"
+      },
+      "soundcloudMeta2": {
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1588546275%3Fsecret_token%3Ds-T4239emT48N&color=%238c7c5c&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
+        "url": "https://soundcloud.com/dmitro-nikolaev-438928684/ode-to-jesus-after-mixing/s-T4239emT48N",
+        "authorUrl": "https://soundcloud.com/dmitro-nikolaev-438928684",
+        "authorName": "Dmitro Nikolaev",
+        "title": "ODE TO JESUS (AFTER MIXING)"
+      }
     },
     {
       "title": [
@@ -475,15 +483,22 @@
       "description": [
         "Enhance the quality and clarity of your audio recordings. I use advanced techniques such as equalization (EQ), compression, reverb, and more to blend your recorded tracks seamlessly. Whether you're working on music, podcasts, films, or commercials, my goal is to bring out the best in your audio, ensuring each element sits perfectly in the mix. Experience radio-ready sound quality that captivates your audience and elevates your project to the next level. ",
         "Ask me any question in PM",
-        "Service costs: from $10"
+        "Service costs: from $20"
       ],
-      "links": [
-        {
-          "title": "You would find examples here",
-          "link": "/showcase?genre=Mixing%20%2F%20Mastering",
-          "internal": true
-        }
-      ]
+      "soundcloudMeta": {
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1588553651%3Fsecret_token%3Ds-OEmpeqZ13za&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
+        "url": "https://soundcloud.com/dmitro-nikolaev-438928684\" title=\"Dmitro Nikolaev\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Dmitro Nikolaev</a> · <a href=\"https://soundcloud.com/dmitro-nikolaev-438928684/amor-a-la-mexicana-before-restoration/s-OEmpeqZ13za",
+        "authorUrl": "https://soundcloud.com/dmitro-nikolaev-438928684",
+        "authorName": "Dmitro Nikolaev",
+        "title": "AMOR A LA MEXICANA (BEFORE RESTORATION)"
+      },
+      "soundcloudMeta2": {
+        "src": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1588555315%3Fsecret_token%3Ds-5nDZRQqysJv&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
+        "url": "https://soundcloud.com/dmitro-nikolaev-438928684/amor-a-la-mexicana-after-restoration/s-5nDZRQqysJv",
+        "authorUrl": "https://soundcloud.com/dmitro-nikolaev-438928684",
+        "authorName": "Dmitro Nikolaev",
+        "title": "AMOR A LA MEXICANA (AFTER MIXING)"
+      }
     },
     {
       "title": ["Music & Sound Design for Advertisement"],
@@ -493,13 +508,8 @@
         "Ask me any question in PM",
         "Service costs: from $50"
       ],
-      "links": [
-        {
-          "title": "You would find examples here",
-          "link": "/showcase?genre=Sound%20Design",
-          "internal": true
-        }
-      ]
+      "videoId": "karA8Msgqq8",
+      "videoId2": "j5EVNX0BBis"
     },
     {
       "title": ["Music for Games"],
@@ -509,13 +519,9 @@
         "Ask me any question in PM",
         "Service costs: from $50"
       ],
-      "links": [
-        {
-          "title": "You would find examples here",
-          "link": "/showcase?genre=Official%20Soundtrack",
-          "internal": true
-        }
-      ]
+      "videoId": "SNWTSzPIeEA",
+      "videoId2": "IkcBAR8lQB8",
+      "videoId3": "TvIrgqo8M9c"
     },
     {
       "title": ["Sound Design for Games"],
@@ -525,13 +531,9 @@
         "Ask me any question in PM",
         "Service costs: from $50"
       ],
-      "links": [
-        {
-          "title": "You would find examples here",
-          "link": "/showcase?genre=Sound%20Design",
-          "internal": true
-        }
-      ]
+      "videoId": "vnFuXSaEJ8g",
+      "videoId2": "eVmB5xbqMDY",
+      "videoId3": "xocRENbyKzc"
     }
   ]
 }

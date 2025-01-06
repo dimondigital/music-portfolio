@@ -34,6 +34,11 @@
             </svg>
           </span>
         </ng-container>
+        <ng-container *ngIf="link.icon === 'newgrounds'">
+          <span class="icon icon-newgrounds">
+            <img src="https://www.newgrounds.com/downloads/designassets/assets/ng_logo.png" alt="">
+          </span>
+        </ng-container>
         {{ link.title }}</a>
     </div>
   </ng-container>

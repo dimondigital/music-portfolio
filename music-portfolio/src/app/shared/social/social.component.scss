@@ -14,6 +14,10 @@
     margin-bottom: 1em;
     border: none;
 
+    &:hover {
+      cursor: $cursor-pointer 12 12, auto !important;
+    }
+
     img {
       max-width: 2em;
     }

@@ -3,6 +3,7 @@
 @import "style/variables";
 @import "assets/webfontkit-20230805-153002/font-argentum";
 
+
 body {
   font-family: "Raleway", sans-serif;
   color: $color-green-light;
@@ -34,8 +35,22 @@ button {
   color: $color-green-light;
 
   &:hover {
+    cursor: $cursor-pointer 12 12, auto !important;
     filter: brightness(1.1);
   }
 }
 
+.container li {
+  &:hover {
+    color: #f9f944;
+    cursor: $cursor-pointer 12 12, auto !important;
+  }
+}
+
 .color-cursor-pointer {fill: #d2ff00;}
+
+.html5-video-player > * {
+  &:hover {
+    cursor: $cursor-pointer 12 12, auto !important;
+  }
+}

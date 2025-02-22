@@ -24,6 +24,7 @@ export class PageIntroComponent {
   }
 
   public isHideGroup: boolean = false;
+  public isShowreel: boolean = false;
 
   imgSrc: string = "assets/ava2000.jpg";
   introText: string[] = [
@@ -47,6 +48,14 @@ export class PageIntroComponent {
     event.preventDefault();
     this.isHideGroup = true;
     this.beginNavigation();
+  }
+
+  public watchShowreel(event: MouseEvent): void {
+    this.isShowreel = true;
+  }
+
+  public closeShowreel(): void {
+    this.isShowreel = false;
   }
 
   private beginNavigation(): void {
